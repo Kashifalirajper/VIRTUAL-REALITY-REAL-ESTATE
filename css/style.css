@@ -12723,12 +12723,11 @@ section.our-clientsFeedback.py-5 {
 
 
 .headingAugmentedReality {
-	font-family: 'B612', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 35px;
-	line-height: 50px;
-	color: #050748;
+	font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 50px;
+    color: rgb(5, 7, 72);
 }
 
 .descriptionAugmented {
@@ -13205,9 +13204,8 @@ border-radius: 34px;
   .list-group-item {
 	border: none !important;
 	text-align: justify;
-	color: #000;
-	font-weight: 500;
-	font-family: 'B612', sans-serif;
+
+
 }
 
 
