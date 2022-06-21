@@ -704,6 +704,6 @@ $(document).ready(function(){
 	  traX = ((4 * mouseX) / 570) + 40;
 	  traY = ((4 * mouseY) / 570) + 50;
 	  console.log(traX);
-	  $(".title").css({"background-position": traX + "%" + traY + "%"});
+	  $(".title3d").css({"background-position": traX + "%" + traY + "%"});
 	});
   });
