@@ -13036,8 +13036,34 @@ border-radius: 34px;
 
 }
 
+.headingMainBanner h1{
+	font-family: 'Dhurjati', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 40px 40px;
+	border-radius: 20px;
+}
+
+@media (max-width: 379px) {
+	.headingMainBanner h1{
+
+		font-weight: 600;
+		font-size: 50px;
+		word-break: break-word;
+	}
+}
+
+
+
 .touchMainBanner{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/virtual/MainBanner.jpeg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/update-images/123.jpg);
 	background-size: cover;
 }
 
@@ -13060,7 +13086,7 @@ border-radius: 34px;
 	font-weight: 800;
 	color: transparent;
 	font-size: 120px;
-	background: url(../images/virtual/mouseBackground.jpg) repeat;
+	background: url(../images/update-images/123.jpg) repeat;
 	background-position: 40% 50%;
 	-webkit-background-clip: text;
 	position: relative;
