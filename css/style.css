@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /*scrollbar theme*/
 ::-webkit-scrollbar {
@@ -13337,4 +13339,35 @@ border-radius: 34px;
 
 a{
 	text-decoration: none!important;
+}
+
+.cardSmartTouchA{
+	border: none!important;
+	border-radius: 20px!important;
+	padding: 20px;
+}
+
+::marker{
+	font-size: 20px;
+}
+
+.headingAboutSec{
+	font-family: 'Baloo Bhaina 2';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	color: #142432;
+	text-transform: uppercase;
+}
+
+.advantagesList{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+	text-align: justify;
+	list-style-type: disc;
 }
